@@ -1,6 +1,6 @@
 // const popmotion = require("popmotion");
 
-import { styler, spring, listen, pointer, value } from "popmotion";
+const { styler, spring, listen, pointer, value } = require("popmotion");
 
 const ball = document.querySelector(".box");
 const divStyler = styler(ball);
