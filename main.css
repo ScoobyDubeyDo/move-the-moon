@@ -1,0 +1,19 @@
+.box {
+  background-image: url(./moon.jpg);
+  background-size: cover;
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+  box-shadow: 0 0 104px -4px rgba(255, 255, 255, 1);
+  position: relative;
+  top: 7em;
+  left: 20em;
+}
+
+body {
+  background-image: url(./sky.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
